@@ -278,7 +278,7 @@ int main()
 	BITSTRING *a = new BITSTRING(alfa1);
 	BITSTRING *b = new BITSTRING(alfa2);
 	BITSTRING c;
-	printf("Тестирование функции GetWor(Объект a)- %s\n", a->GetWord());
+	printf("Тестирование функции GetWord(Объект a)- %s\n", a->GetWord());
 	std::cout << "Тестирование функции show(Объект a)- "; a->show();
 	printf("Тестирование функции GetWord(Объект b)- %s\n", b->GetWord());
 	std::cout << "Тестирование функции show(Объект b)- "; b->show();
