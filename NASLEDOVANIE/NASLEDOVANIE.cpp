@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <conio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -278,10 +278,10 @@ int main()
 	BITSTRING *a = new BITSTRING(alfa1);
 	BITSTRING *b = new BITSTRING(alfa2);
 	BITSTRING c;
-	printf("Òåñòèðîâàíèå ôóíêöèè GetWor(Îáúåêò a)d- %s\n", a->GetWord());
-	std::cout << "Òåñòèðîâàíèå ôóíêöèè show(Îáúåêò a)- "; a->show();
-	printf("Òåñòèðîâàíèå ôóíêöèè GetWord(Îáúåêò b)- %s\n", b->GetWord());
-	std::cout << "Òåñòèðîâàíèå ôóíêöèè show(Îáúåêò b)- "; b->show();
+	printf("Ð¢ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ GetWor(ÐžÐ±ÑŠÐµÐºÑ‚ a)- %s\n", a->GetWord());
+	std::cout << "Ð¢ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ show(ÐžÐ±ÑŠÐµÐºÑ‚ a)- "; a->show();
+	printf("Ð¢ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ GetWord(ÐžÐ±ÑŠÐµÐºÑ‚ b)- %s\n", b->GetWord());
+	std::cout << "Ð¢ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ show(ÐžÐ±ÑŠÐµÐºÑ‚ b)- "; b->show();
 	if (*a == *b) printf("a==b\n");
 	else printf("a!=b\n");
 	c = (*a) + (*b);
